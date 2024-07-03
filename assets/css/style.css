@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-size: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+main{
+    height: 100vh;
+    /* background-image: linear-gradient(to top right, #2a2a75, #7c94bd); */
+    /* background-color: #f9f4ff; */
+
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/pexels-tracehudson-2724664.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(2.5px);
+    z-index: -1;
+}
+
+section{
+    display: flex;
+}
+
+form{
+    border: 1px solid #fff;
+}
+
+section form{
+    width: 70rem;
+    height: 80rem;
+
+    background-color: #d7d7f3;
+    border-radius: 5rem 0 0 5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section form label{
+    font-size: 1.8rem;
+    color: #2a2a75;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+section form input{
+    height: 4rem;
+    width: 40rem;
+    border: 0;
+    border-radius: 8rem;
+
+    background-color: #ebeef3;
+    color: #2a2a75;
+
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding-left: 2rem;
+
+    transition: .2s;
+}
+
+section form input::selection{
+    border: 1px #2a2a75;
+}
+
+section form .reposicionamento{
+    display: flex;
+    align-items: center;
+    gap: 18rem;
+}
+
+section form .reposicionamento label{
+    font-size: 1.3rem;
+}
+
+section form .reposicionamento .checkbox{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 1rem;
+    align-items: center;
+    border: 0;
+}
+
+#create .btn-sign-up{
+    border: 0;
+    width: 20rem;
+    height: 5rem;
+
+    background-color: #2a2a75;
+    color: #d7d7f3;
+    border-radius: 8rem;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5rem;
+
+}
+
+.or{
+    color: #2a2a75;
+    font-weight: 500;
+}
+
+button{
+    cursor: pointer;
+    transition: .2s;
+}
+
+button:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 1rem 0 #000;
+}
+
+.btn-sign-in{
+    border: 0;
+    width: 10rem;
+    height: 5rem;
+
+    background-color: #2a2a75;
+    color: #d7d7f3;
+    border-radius: 8rem;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+#lembrar{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+#page{
+    width: 70rem;
+    height: 80rem;
+}
+
+.paisagem{
+    width: 70rem;
+    height: 80rem;
+}
+
+.continue{
+    display: flex;
+    gap: 3rem;
+}
+
+.continue button{
+    width: 15rem;
+    height: 4rem;
+    border: 0;
+    border-radius: 2rem;
+
+    font-size: 1.2rem;
+
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.continue p{
+    margin: 1.5rem 0 4rem;
+    font-size: 1.2rem;
+}
+
+.logomarcas{
+    width: 1rem;
+    width: 1rem;
+}
+
+.facebook{
+    background-color: #2d54ff;
+    color: #fff;
+}
+
+.google{
+    background-color: #fff;
+}
+
+#criar-conta{
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: #2a2a75;
+    margin-top: 2rem;
+}
+
+p{
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+
+#create{
+    display: none;
+}
+
+.logo{
+    font-size: 8rem;
+    margin-bottom: 6rem;
+    font-family: "Dancing Script", cursive;
+}
